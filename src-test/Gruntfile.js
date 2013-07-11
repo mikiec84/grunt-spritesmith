@@ -1,6 +1,6 @@
 module.exports = function (grunt) {
   // Load in legacy config
-  require('./grunt')(grunt);
+  require('./grunt2')(grunt);
 
   // Configure nodeunit as test
   var testConfig = grunt.config.get('test');
